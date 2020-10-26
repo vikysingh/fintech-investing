@@ -1,10 +1,10 @@
 # Benvenuti a InFin
 
 ### Panoramica
-Una landing page di fintech investing(trading) create con Reactjs e Nextjs
+Una landing page di fintech investing(trading) creata con Reactjs e Nextjs
 
 ### Motivazione
-Uno progotto creato per provare il framework Nextjs e SSR(Server side rendering) in Reactjs
+Uno progetto creato per provare il framework Nextjs e SSR(Server side rendering) in Reactjs
 
 ### Note
 Crediti del design:
