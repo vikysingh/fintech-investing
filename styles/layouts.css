@@ -1,0 +1,43 @@
+.flexRowEvenlyCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flexRowCenterCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexColumnStartCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.twoColGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.twoColGrid-leftcol {
+    grid-column: 1 / 2;
+}
+
+.twoColGrid-rightcol {
+    grid-column: 2 / -1;
+}
+
+@media (max-width: 600px) {
+    .twoColGrid {
+        grid-template-columns: 100%;
+    }
+
+    .twoColGrid-leftcol, .twoColGrid-rightcol {
+        grid-column: 1 / -1;
+    }
+}

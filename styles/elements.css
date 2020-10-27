@@ -1,0 +1,129 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    padding: 10px 25px;
+    font-size: 1rem;
+}
+
+.btnPrimary {
+    background-color: #3adbbb;
+    border: 2px solid #3adbbb;
+    transition: 400ms all ease;
+    border-radius: 50px;
+}
+
+.btnPrimary:hover {
+    background-color: transparent;
+    color: #3adbbb;
+}
+
+.card {
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.cardWithShadow {
+    box-shadow: 0px 0px 6px 3px rgba(24,53,158,0.05);
+}
+
+.card img {
+    width: 150px;
+}
+
+.card h3, .card p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+input {
+    border: none;
+    box-shadow: 0px 4px 10px 1px#5e9cfa;
+    padding: 15px 0;
+    padding-left: 25px;
+    border-radius: 50px;
+    width: 50vw;
+    margin-right: 25px;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.sectionTemplate > div {
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.sectionTemplate h2 {
+    margin-bottom: 0;
+}
+
+.sectionTemplate > p {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .sectionTemplate > div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h1, h2, p {
+        width: 90%;
+    }
+
+    h2, p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
