@@ -43,7 +43,7 @@ const Index = () => (
         
         <SectionTemplate title={Content.section4.title} 
         paragraph={Content.section4.paragraph}>
-            <img src={Dashboard} alt="Dashboard" />
+            <img className="dashboard_img" src={Dashboard} alt="Dashboard" />
         </SectionTemplate>
         
         <SectionTemplate title={Content.section5.title}>

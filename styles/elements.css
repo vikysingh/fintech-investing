@@ -41,6 +41,12 @@ button {
     color: #3adbbb;
 }
 
+.social_icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
 .card {
     text-align: center;
     width: auto;
