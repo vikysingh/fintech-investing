@@ -29,6 +29,7 @@ nav {
     right: 20px;
     transform-origin: center center;
     z-index: 5;
+    display: none;
 }
 
 .navbar_open::before, .navbar_open::after {
@@ -151,6 +152,10 @@ footer > p {
 }
 
 @media (max-width: 600px) {
+
+    .navbar_open {
+        display: block;
+    }
     
     .navbar_items {
 	    width: 100vw;
